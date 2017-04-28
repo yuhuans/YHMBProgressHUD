@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1818438D1EB33BEE00C03618 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818438C1EB33BEE00C03618 /* main.m */; };
+		181843901EB33BEE00C03618 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1818438F1EB33BEE00C03618 /* AppDelegate.m */; };
+		181843931EB33BEE00C03618 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181843921EB33BEE00C03618 /* ViewController.m */; };
+		181843961EB33BEF00C03618 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181843941EB33BEF00C03618 /* Main.storyboard */; };
+		181843981EB33BEF00C03618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181843971EB33BEF00C03618 /* Assets.xcassets */; };
+		1818439B1EB33BEF00C03618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181843991EB33BEF00C03618 /* LaunchScreen.storyboard */; };
+		181843A91EB33C2700C03618 /* HUDStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181843A41EB33C2700C03618 /* HUDStateView.m */; };
+		181843AA1EB33C2700C03618 /* StateAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181843A61EB33C2700C03618 /* StateAnimationView.m */; };
+		181843AB1EB33C2700C03618 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 181843A81EB33C2700C03618 /* UIView+HUD.m */; };
+		AD53986B42A3B8489CC04184 /* Pods_YHMBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFF056068EA7E68B6D8EF66 /* Pods_YHMBProgressHUD.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06A964226E3491B51C75B639 /* Pods-YHMBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHMBProgressHUD.release.xcconfig"; path = "Pods/Target Support Files/Pods-YHMBProgressHUD/Pods-YHMBProgressHUD.release.xcconfig"; sourceTree = "<group>"; };
+		0EFF056068EA7E68B6D8EF66 /* Pods_YHMBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHMBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		181843881EB33BEE00C03618 /* YHMBProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHMBProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1818438C1EB33BEE00C03618 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1818438E1EB33BEE00C03618 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1818438F1EB33BEE00C03618 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		181843911EB33BEE00C03618 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		181843921EB33BEE00C03618 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		181843951EB33BEF00C03618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		181843971EB33BEF00C03618 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1818439A1EB33BEF00C03618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1818439C1EB33BEF00C03618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181843A31EB33C2700C03618 /* HUDStateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUDStateView.h; sourceTree = "<group>"; };
+		181843A41EB33C2700C03618 /* HUDStateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUDStateView.m; sourceTree = "<group>"; };
+		181843A51EB33C2700C03618 /* StateAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateAnimationView.h; sourceTree = "<group>"; };
+		181843A61EB33C2700C03618 /* StateAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateAnimationView.m; sourceTree = "<group>"; };
+		181843A71EB33C2700C03618 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		181843A81EB33C2700C03618 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		CCEA78267A163EA8444B19D6 /* Pods-YHMBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHMBProgressHUD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YHMBProgressHUD/Pods-YHMBProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		181843851EB33BEE00C03618 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD53986B42A3B8489CC04184 /* Pods_YHMBProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1818437F1EB33BEE00C03618 = {
+			isa = PBXGroup;
+			children = (
+				1818438A1EB33BEE00C03618 /* YHMBProgressHUD */,
+				181843891EB33BEE00C03618 /* Products */,
+				5F2C010128A02CB39E005BF9 /* Pods */,
+				1C5AA06376A8A9481582FB1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		181843891EB33BEE00C03618 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				181843881EB33BEE00C03618 /* YHMBProgressHUD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1818438A1EB33BEE00C03618 /* YHMBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1818438E1EB33BEE00C03618 /* AppDelegate.h */,
+				1818438F1EB33BEE00C03618 /* AppDelegate.m */,
+				181843911EB33BEE00C03618 /* ViewController.h */,
+				181843921EB33BEE00C03618 /* ViewController.m */,
+				181843A21EB33C2700C03618 /* HUD */,
+				181843941EB33BEF00C03618 /* Main.storyboard */,
+				181843971EB33BEF00C03618 /* Assets.xcassets */,
+				181843991EB33BEF00C03618 /* LaunchScreen.storyboard */,
+				1818439C1EB33BEF00C03618 /* Info.plist */,
+				1818438B1EB33BEE00C03618 /* Supporting Files */,
+			);
+			path = YHMBProgressHUD;
+			sourceTree = "<group>";
+		};
+		1818438B1EB33BEE00C03618 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1818438C1EB33BEE00C03618 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181843A21EB33C2700C03618 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				181843A31EB33C2700C03618 /* HUDStateView.h */,
+				181843A41EB33C2700C03618 /* HUDStateView.m */,
+				181843A51EB33C2700C03618 /* StateAnimationView.h */,
+				181843A61EB33C2700C03618 /* StateAnimationView.m */,
+				181843A71EB33C2700C03618 /* UIView+HUD.h */,
+				181843A81EB33C2700C03618 /* UIView+HUD.m */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		1C5AA06376A8A9481582FB1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EFF056068EA7E68B6D8EF66 /* Pods_YHMBProgressHUD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F2C010128A02CB39E005BF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCEA78267A163EA8444B19D6 /* Pods-YHMBProgressHUD.debug.xcconfig */,
+				06A964226E3491B51C75B639 /* Pods-YHMBProgressHUD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		181843871EB33BEE00C03618 /* YHMBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1818439F1EB33BEF00C03618 /* Build configuration list for PBXNativeTarget "YHMBProgressHUD" */;
+			buildPhases = (
+				8AA0FE886BA5E6EC3B3A5342 /* [CP] Check Pods Manifest.lock */,
+				181843841EB33BEE00C03618 /* Sources */,
+				181843851EB33BEE00C03618 /* Frameworks */,
+				181843861EB33BEE00C03618 /* Resources */,
+				E5E2254C437F907A33D14A0D /* [CP] Embed Pods Frameworks */,
+				7C23D4AF0FE9C35496766886 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHMBProgressHUD;
+			productName = YHMBProgressHUD;
+			productReference = 181843881EB33BEE00C03618 /* YHMBProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		181843801EB33BEE00C03618 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "于欢";
+				TargetAttributes = {
+					181843871EB33BEE00C03618 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 181843831EB33BEE00C03618 /* Build configuration list for PBXProject "YHMBProgressHUD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1818437F1EB33BEE00C03618;
+			productRefGroup = 181843891EB33BEE00C03618 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				181843871EB33BEE00C03618 /* YHMBProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		181843861EB33BEE00C03618 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1818439B1EB33BEF00C03618 /* LaunchScreen.storyboard in Resources */,
+				181843981EB33BEF00C03618 /* Assets.xcassets in Resources */,
+				181843961EB33BEF00C03618 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C23D4AF0FE9C35496766886 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHMBProgressHUD/Pods-YHMBProgressHUD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AA0FE886BA5E6EC3B3A5342 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5E2254C437F907A33D14A0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YHMBProgressHUD/Pods-YHMBProgressHUD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		181843841EB33BEE00C03618 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181843AB1EB33C2700C03618 /* UIView+HUD.m in Sources */,
+				181843AA1EB33C2700C03618 /* StateAnimationView.m in Sources */,
+				181843931EB33BEE00C03618 /* ViewController.m in Sources */,
+				181843901EB33BEE00C03618 /* AppDelegate.m in Sources */,
+				181843A91EB33C2700C03618 /* HUDStateView.m in Sources */,
+				1818438D1EB33BEE00C03618 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		181843941EB33BEF00C03618 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				181843951EB33BEF00C03618 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		181843991EB33BEF00C03618 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1818439A1EB33BEF00C03618 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1818439D1EB33BEF00C03618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1818439E1EB33BEF00C03618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		181843A01EB33BEF00C03618 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCEA78267A163EA8444B19D6 /* Pods-YHMBProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHMBProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJY.YHMBProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		181843A11EB33BEF00C03618 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A964226E3491B51C75B639 /* Pods-YHMBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YHMBProgressHUD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YJY.YHMBProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		181843831EB33BEE00C03618 /* Build configuration list for PBXProject "YHMBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1818439D1EB33BEF00C03618 /* Debug */,
+				1818439E1EB33BEF00C03618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1818439F1EB33BEF00C03618 /* Build configuration list for PBXNativeTarget "YHMBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				181843A01EB33BEF00C03618 /* Debug */,
+				181843A11EB33BEF00C03618 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 181843801EB33BEE00C03618 /* Project object */;
+}
