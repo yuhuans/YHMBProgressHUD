@@ -17,8 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //设置hud成功
     [UIView setHUDSuccThemeColor:[UIColor colorWithRed:39.0/255.0 green:198.0/255.0 blue:144.0/255.0 alpha:1]];
+    //设置hud失败
     [UIView setHUDErrorThemeColor:[UIColor colorWithRed:198.0/255.0 green:91.0/255.0 blue:72.0/255.0 alpha:1]];
+    //设置hud加载
     [UIView setLoadCustomView:[self loadView]];
     return YES;
 }
