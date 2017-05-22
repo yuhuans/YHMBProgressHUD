@@ -102,9 +102,15 @@ static HUDCustomView *loadCustomView = nil;
     // Set the text mode to show only text.
     hud.mode = MBProgressHUDModeText;
     hud.detailsLabel.text = NSLocalizedString(message, @"HUD message title");
-    // Move to bottm center.
-//    hud.offset = CGPointMake(0.f, MBProgressMaxOffset);
+    hud.detailsLabel.font=[UIFont systemFontOfSize:12];
+    hud.detailsLabel.textColor=[UIColor whiteColor];
+    hud.bezelView.color=[[UIColor blackColor] colorWithAlphaComponent:0.5];
+    hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
     
+    // Move to bottm center.
+    hud.offset = CGPointMake(0.f, MBProgressMaxOffset);
+    hud.margin = 10 ;
+    hud.minSize = CGSizeMake(116, 39);
     [hud hideAnimated:YES afterDelay:duration];
 }
 #pragma -mark -
