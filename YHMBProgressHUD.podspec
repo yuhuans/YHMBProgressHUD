@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "YHMBProgressHUD"
-s.version      = "1.0"
+s.version      = "1.1"
 s.summary      = "MBProgressHUD"
 s.description  = <<-DESC
 基于MBProgrssHUD再次封装
